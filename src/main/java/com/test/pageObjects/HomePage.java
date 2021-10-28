@@ -16,8 +16,10 @@ public class HomePage {
 		this.driver = driver;
 	}
 	
+	//Element locators
 	By home = By.xpath("(//a[@href='index.html'])[2]");
 	By contact = By.xpath("(//a[text()='Contact']");
+	
 	By aboutUs = By.xpath("//a[text()='About us']");
 	By cart = By.xpath("//a[@id='cartur']");
 	By logout = By.id("logout2");
