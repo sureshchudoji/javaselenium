@@ -17,8 +17,11 @@ public class base {
 	
 	public WebDriver initializeDriver() throws IOException
 	{
+		String basePath = System.getProperty("user.dir");
+		System.out.println("PATH: "+basePath);
+		
 		prop = new Properties();
-		fis = new FileInputStream("C:\\Users\\Suresh Chudoji\\eclipse-workspace\\seleniumpoc\\src\\main\\java\\com\\test\\resources\\data.properties");
+		fis = new FileInputStream(basePath+"\\src\\main\\java\\com\\test\\resources\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		System.out.println("Running tests in "+browserName+" browser!!!");

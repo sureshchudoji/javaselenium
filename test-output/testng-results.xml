@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36388" started-at="2021-10-17T00:01:38 IST" finished-at="2021-10-17T00:02:15 IST">
+  <suite name="Default suite" duration-ms="11194" started-at="2021-11-02T10:48:27 IST" finished-at="2021-11-02T10:48:38 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36388" started-at="2021-10-17T00:01:38 IST" finished-at="2021-10-17T00:02:15 IST">
+    <test name="Default test" duration-ms="11194" started-at="2021-11-02T10:48:27 IST" finished-at="2021-11-02T10:48:38 IST">
       <class name="com.test.seleniumpoc.LoginTest">
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:com.test.seleniumpoc.LoginTest@6b57696f]" name="HomePage" duration-ms="21938" started-at="2021-10-17T00:01:39 IST" finished-at="2021-10-17T00:02:00 IST">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:com.test.seleniumpoc.LoginTest@58c1670b]" name="HomePage" duration-ms="11132" started-at="2021-11-02T10:48:27 IST" finished-at="2021-11-02T10:48:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
       </class> <!-- com.test.seleniumpoc.LoginTest -->
-      <class name="com.test.seleniumpoc.LogoutTest">
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:com.test.seleniumpoc.LogoutTest@7113b13f]" name="HomePage" duration-ms="14163" started-at="2021-10-17T00:02:01 IST" finished-at="2021-10-17T00:02:15 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePage -->
-      </class> <!-- com.test.seleniumpoc.LogoutTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
