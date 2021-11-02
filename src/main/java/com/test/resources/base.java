@@ -18,16 +18,14 @@ public class base {
 	public WebDriver initializeDriver() throws IOException
 	{
 		String basePath = System.getProperty("user.dir");
-		System.out.println("PATH: "+basePath);
 		
 		prop = new Properties();
 		fis = new FileInputStream(basePath+"\\src\\main\\java\\com\\test\\resources\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
-		System.out.println("Running tests in "+browserName+" browser!!!");
-		
+				
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\work\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", basePath+"\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} 
 		else if(browserName.equals("firefox")) {

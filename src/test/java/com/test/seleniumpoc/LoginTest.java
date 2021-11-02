@@ -35,9 +35,7 @@ public class LoginTest extends base {
 		loginPage.getUsername().sendKeys("storedemo@test.com");
 		loginPage.getPassword().sendKeys("Password@123");
 		loginPage.getLogin().click();
-		
-		
-		
+				
 		Assert.assertTrue(homePage.getLogout().isDisplayed());
 		Assert.assertEquals("STORE", homePage.getPageTitle());
 	}

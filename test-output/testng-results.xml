@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11194" started-at="2021-11-02T10:48:27 IST" finished-at="2021-11-02T10:48:38 IST">
+  <suite name="Default suite" duration-ms="12020" started-at="2021-11-02T10:56:51 IST" finished-at="2021-11-02T10:57:03 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11194" started-at="2021-11-02T10:48:27 IST" finished-at="2021-11-02T10:48:38 IST">
+    <test name="Default test" duration-ms="12020" started-at="2021-11-02T10:56:51 IST" finished-at="2021-11-02T10:57:03 IST">
       <class name="com.test.seleniumpoc.LoginTest">
-        <test-method status="PASS" signature="HomePage()[pri:0, instance:com.test.seleniumpoc.LoginTest@58c1670b]" name="HomePage" duration-ms="11132" started-at="2021-11-02T10:48:27 IST" finished-at="2021-11-02T10:48:38 IST">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:com.test.seleniumpoc.LoginTest@58c1670b]" name="HomePage" duration-ms="11959" started-at="2021-11-02T10:56:52 IST" finished-at="2021-11-02T10:57:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
