@@ -25,25 +25,21 @@ public class LoginPage {
 	public WebElement getUsername() {
 		return new WebDriverWait(driver, Duration.ofSeconds(15))
 				.until(ExpectedConditions.elementToBeClickable(username));
-				//driver.findElement(username);
 	}
 	
 	public WebElement getPassword() {
 		return new WebDriverWait(driver, Duration.ofSeconds(15))
 				.until(ExpectedConditions.elementToBeClickable(password));
-		//return driver.findElement(password);
 	}
 	
 	public WebElement getLogin() {
 		return new WebDriverWait(driver, Duration.ofSeconds(15))
 				.until(ExpectedConditions.elementToBeClickable(login));
-		//return driver.findElement(login);
 	}
 	
 	public WebElement getClose() {
 		return new WebDriverWait(driver, Duration.ofSeconds(15))
 				.until(ExpectedConditions.elementToBeClickable(close));
-				//driver.findElement(close);
 	}
 	
 }

@@ -22,7 +22,6 @@ public class LandingPage {
 	public WebElement getLogin() {
 		return new WebDriverWait(driver, Duration.ofSeconds(15))
 				.until(ExpectedConditions.elementToBeClickable(login));
-				//driver.findElement(login);
 	}
 	
 }

@@ -26,25 +26,21 @@ public class HomePage {
 	public WebElement getHome() {
 		return new WebDriverWait(driver, Duration.ofSeconds(15))
 				.until(ExpectedConditions.elementToBeClickable(home));
-				//driver.findElement(home);
 	}
 	
 	public WebElement getContact() {
 		return new WebDriverWait(driver, Duration.ofSeconds(15))
 				.until(ExpectedConditions.elementToBeClickable(contact));
-				//driver.findElement(contact);
 	}
 	
 	public WebElement getAboutUs() {
 		return new WebDriverWait(driver, Duration.ofSeconds(15))
 				.until(ExpectedConditions.elementToBeClickable(aboutUs));
-				//driver.findElement(aboutUs);
 	}
 	
 	public WebElement getCart() {
 		return new WebDriverWait(driver, Duration.ofSeconds(15))
 				.until(ExpectedConditions.elementToBeClickable(cart));
-				//driver.findElement(cart);
 	}
 	
 	public WebElement getLogout() {
