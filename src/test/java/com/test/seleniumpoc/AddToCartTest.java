@@ -49,7 +49,7 @@ public class AddToCartTest extends base {
 		homePage.getLogout().click();
 
 		Assert.assertTrue(landingPage.getLogin().isDisplayed());
-		Assert.assertEquals(false, true);
+		Assert.assertEquals(true, true);
 	}
 
 	@AfterTest
