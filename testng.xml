@@ -12,4 +12,9 @@
       <class name="com.test.seleniumpoc.LogoutTest"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="LogoutTest">
+    <classes>
+      <class name="com.test.seleniumpoc.AddToCartTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
