@@ -12,7 +12,7 @@
       <class name="com.test.seleniumpoc.LogoutTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="LogoutTest">
+  <test thread-count="5" name="AddToCartTest">
     <classes>
       <class name="com.test.seleniumpoc.AddToCartTest"/>
     </classes>
